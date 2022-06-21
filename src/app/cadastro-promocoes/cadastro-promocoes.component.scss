@@ -1,0 +1,30 @@
+@import "../../styles.scss";
+
+h1 {
+    color: $grayscale-800;
+}
+
+label {
+    color: $grayscale-600;
+}
+
+.form {
+    &-control {
+        color: $grayscale-600;
+        border-color: $grayscale-200;
+
+        &:focus {
+            border-color: $primary-500;
+            box-shadow: 0 0 0 0.25rem $primary-50;
+        }
+    }
+    &-select {
+        color: $grayscale-600;
+        border-color: $grayscale-200;
+
+        &:focus {
+            border-color: $primary-500;
+            box-shadow: 0 0 0 0.25rem $primary-50;
+        }
+    }
+}
