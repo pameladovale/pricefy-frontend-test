@@ -9,8 +9,8 @@ Para rodar a aplicação localmente, é necessário abrir o repositório com VS 
 No prompt de comando digite o caminho do projeto e então:
 
 ~~~
-*npm install
-*ng serve
+npm install
+ng serve
 ~~~
 
 Abra o projeto em <http://localhost:4200/>
